@@ -54,10 +54,12 @@ export default function users(state = initialState, action) {
         loading: true,
       };
     case SEARCH_PHOTO_SUCCESS:
+      let newData = Object.assign(action.photos);
+      console.log("free", newData);
       return {
         ...state,
         loading: false,
-        photos: action.photos,
+        photos: newData,
       };
 
     default:

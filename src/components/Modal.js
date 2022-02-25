@@ -11,8 +11,6 @@ const Modal = () => {
     document.body.style.overflow = "auto";
   };
 
-  console.log("modal==>", thumb);
-
   return (
     <>
       {modal ? (

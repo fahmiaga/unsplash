@@ -40,9 +40,9 @@ const Users = () => {
     setIsFetching(true);
   }
 
-  function fetchMoreListItems() {
+  const fetchMoreListItems = () => {
     dispatch(searchPhoto(value, page));
-  }
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);

@@ -1,8 +1,10 @@
 ## how to run
 
--clone this repo
--open console and type 'npm install'
--run project with 'npm run start'
+### `clone this repo`
+
+### `npm install`
+
+### `npm run start`
 
 # Getting Started with Create React App
 
